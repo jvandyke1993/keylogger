@@ -2,6 +2,7 @@
 #include <windows.h>
 #include "keyConstants.h"
 #include "helper.h"
+#include "base64.h"
 
 using namespace std;
 
