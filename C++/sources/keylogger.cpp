@@ -5,6 +5,7 @@
 #include "base64.h"
 #include "io.h"
 #include "timer.h"
+#include "sendMail.h"
 
 using namespace std;
 
