@@ -4,6 +4,7 @@
 #include "helper.h"
 #include "base64.h"
 #include "io.h"
+#include "timer.h"
 
 using namespace std;
 
