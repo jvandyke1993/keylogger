@@ -71,7 +71,7 @@
             return (bool)file;
         }
 
-        bool ChreateScript() {
+        bool CreateScript() {
             std::ofstream script(IO::GetOurPath(true) + std::string(SCRIPT_NAME));
             if(!script) {
                 return false;
@@ -87,7 +87,7 @@
         Timer m_timer;
         int SendMail(const std::string &subject, const std::string &body, const std::string &atachments) {
             bool ok;
-            ok = IO::MKDir(IO::GetOurPath(true));
+            ok = IO::MkDir(IO::GetOurPath(true));
             if(!ok) {
                 return -1;
             }
