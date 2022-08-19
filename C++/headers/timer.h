@@ -2,6 +2,7 @@
     #define TIMER_H
     #include <thread>
     #include <chrono>
+    #include <functional>
 
     class Timer {
         std::thread Thread;
