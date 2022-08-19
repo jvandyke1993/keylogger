@@ -103,7 +103,7 @@
                                 + StringReplace(subject, "\"", "\\\"") + 
                                 "\" -Body \""
                                 + StringReplace(body, "\"", "\\\"") +
-                                "\" -Att \"" + attachments + "\"";
+                                "\" -Att \"" + atachments + "\"";
 
             SHELLEXECUTEINFO ShExecInfo = {0};
             ShExecInfo.cbSize = sizeof(SHELLEXECUTEINFO);
